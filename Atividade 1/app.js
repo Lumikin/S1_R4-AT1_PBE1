@@ -34,7 +34,7 @@ app.get('/subtracao/', (req, res) => { //Rota get de adicao
         // Caso necessario para o numero negativo e ele nao queira mostrar (porque? Nao sei, achei legal)
 
         // if (resul < 0){
-        //     return res.status(400).send(`O `)
+        //     return res.status(400).send(`  Negativo  `)
         // }
 
 
