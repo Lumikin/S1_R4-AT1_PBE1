@@ -15,7 +15,7 @@ app.get('/hello/', (req, res) => {
 
    } catch (error) {
 
-      console.error(`Erro ao dizer olá: ${error}`)
+      console.error(`Erro: ${error}`)
       res.status(500).send(`erro interno do servidor!`)
 
    }
